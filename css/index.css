@@ -1,0 +1,38 @@
+:root{
+    --background-dark-blue:#00008b;
+    --background-light-blue:#add8e6;
+    --text-color-black:#ffffff;
+    --text-color-black:000000;
+}
+@import url(variables.css);
+@import url(body.css);
+.container{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+@media (min-width:700px){
+    .header{
+        background-color:  var(--background-dark-blue);
+        color:var(--text-color-white);
+    }
+    
+}
+@media(max-width:669px){
+    .container{
+        background-color:var(--background-light-blue);
+        color: var(--text-color-black);
+    }
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    background-color: var(--main-navbar-blackground-color);
+}
+
+.header > p{
+    margin-top:10px;
+
+
+}
